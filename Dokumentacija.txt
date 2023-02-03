@@ -1,0 +1,60 @@
+Test1	
+			Requirement 
+
+1. "Login" page is displayed when application is started.
+2. "Login" page shall have “Username” textbox. It is displayed, enabled, and empty.
+3. "Username" textbox contains username "standard_user".
+4. "Login" page shall have "Password" textbox. It is displayed, enabled, and empty.
+5. "Password" textbox contains password "secret_sauce".
+6. "Login" button is displayed and enabled.
+7. Click on "Login" button opens "Home" page if "Username" and "Password" are correct. 
+8. "Home" page is displayed.
+9. "Menu" button is displayed and enabled.
+10. Click on "Menu" button opens menu bar.
+11. "Menu" contains "About" button, it is displayed and enabled.
+12. Click on "About" button opens "About" page. 
+13. "Home" page is displayed.
+14. "Menu" button is displayed and enabled.
+15. Click on "Menu" button opens menu bar. 
+16. "Logout" button is displayed and enabled.
+17. Click on "Logout" button opens "Login" page. 
+
+Test2
+			Requirement 
+
+1. "Login" page is displayed when application is started.
+2. "Login" page shall have “Username” textbox. It is displayed, enabled, and empty.
+3. "Username" textbox contains no username ("").
+4. "Login" page shall have "Password" textbox. It is displayed, enabled, and empty.
+5. "Password" textbox contains no password ("").
+6. "Login" button is displayed and enabled.
+7. Click on "Login" button opens ("Epic sadface: Username is required") message when "Username" and "Password" textboxes are empty.
+8. "Username" textbox contains username ("standard_user").
+9. "Password" textbox contains no password ("").
+10. Click on "Login" button opens ("Epic sadface: Password is required") message when "Password" textbox is empty.
+11."Username" textbox contains no username ("").
+12."Password" textbox contains password ("secret_sauce").
+13.Click on "Login" button opens ("Epic sadface: Username is required") message when "Username" textbox is empty.
+
+Test3
+			Requirement 
+
+1. "Login" page is displayed when application is started.
+2. "Login" page shall have “Username” textbox. It is displayed, enabled, and empty.
+3. "Username" textbox contains username "locked_out_user". 
+4. "Login" page shall have "Password" textbox. It is displayed, enabled, and empty.
+5. "Password" textbox contains password "secret_sauce".
+6. "Login" button is displayed and enabled.
+7. Click on "Login" button opens ("Epic sadface: Sorry, this user has been locked out.") message when "Username" is "locked_out_user".
+8. "Login" page shall have “Username” textbox. It is displayed, enabled, and empty.
+9. "Username" textbox contains username "standard_user".
+10. "Login" page shall have "Password" textbox. It is displayed, enabled, and empty.
+11. "Password" textbox contains password "secret_sauce".
+12. Click on "Login" button opens "Home" page if "Username" and "Password" are correct.
+13. "Add to cart" button is displayed and enabled.
+14. Click on "add to cart" button adds product in "shoping cart".
+15. "Shopig cart" button is displayed and enabled.
+16. Click on "Shopig cart" opens "shopping_cart_container" page.
+17. # If button "remove" for certain product can be found on the "shopping_cart_container" page print "Product is in shopping cart" in output of test. 
+
+			
